@@ -1,0 +1,64 @@
+body {
+	font: 12px Verdana;
+}
+
+.jp {
+	font-family: 'MS PGothic';
+}
+
+.small {
+	font-size: 9px;
+}
+
+table,
+table td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	padding: 5px 2px;
+}
+
+tr:hover {
+	background-color: #ffeeff;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	line-height: 120%;
+	font-size: normal;
+}
+
+input.w {
+	width: 80%;
+}
+
+div#main {
+	width: 960px;
+	margin: 5px auto;
+}
+
+textarea {
+	width: 800px;
+	height: 300px;
+}
+
+#p ul li {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+#p ul li span.big {
+	font-size: 150%;
+}
+
+.tac { text-align: center; }
+.tar { text-align: right; }
+
+.hiddenhover {display: none;}
+.hovercontainer:hover .hiddenhover {display: inline;}
+.btn_edit {
+background: transparent url(http://img2.blogblog.com/img/icon18_edit_allbkg.gif) no-repeat;
+border: none;
+width:18px;
+height: 18px;
+float: right;
+}
